@@ -172,6 +172,7 @@ GEM
     responders (3.1.0)
       actionpack (>= 5.2)
       railties (>= 5.2)
+    rolify (6.0.1)
     sqlite3 (1.6.2)
       mini_portile2 (~> 2.8.0)
     thor (1.2.1)
@@ -204,11 +205,12 @@ DEPENDENCIES
   puma (~> 5.0)
   rack-cors
   rails (~> 7.0.4, >= 7.0.4.3)
+  rolify
   sqlite3 (~> 1.4)
   tzinfo-data
 
 RUBY VERSION
-   ruby 3.2.1p31
+   ruby 3.2.0p0
 
 BUNDLED WITH
    2.4.12
